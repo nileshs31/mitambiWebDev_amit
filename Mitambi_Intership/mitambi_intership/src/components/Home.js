@@ -17,8 +17,16 @@ const Home = () => {
   return (
     <>
       <div className="p-4 box mt-3 text-center">
-        Hello Welcome <br />
-        {user && user.email}
+        
+        User details :-<br />
+        
+        Email: {user && user.email}  <br/>
+        Name: {user && user.email}  <br/>
+        Date of birth: {user && user.email}  <br/>
+        Gender: {user && user.email}  <br/>
+        Category: {user && user.email}  <br/>
+
+
       </div>
       <div className="d-grid gap-2">
         <Button variant="primary" onClick={handleLogout}>
